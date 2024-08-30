@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Rodrigo Turrión</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="icon" type="image/jpg" href="/imgs/snoopy_favicon.png" />
+  </head>
 
-<body>
-<!-- "Header" de la página -->
-<div class="header">
-<img id="logo" src="almendra.png">
-<div><h1 id="nombre">Rodrigo Turrión</h1></div>
-</div>
+  <header>
+    <!-- "Header" de la página -->
+    <div class="header">
+    <img id="logo" src="imgs/snoopy.jpg" />
+    <div><h1 id="nombre">Rodrigo Turrión</h1></div>
+    </div>
 
-<!-- Texto de la página --> 
-<h2 class="titulo">Aprendiendo CSS</h2>
-<p>Buenas, esta es mi primera página web implementando CSS</p>
-<p>Todavía es bastante básica, la cree en base a lo que voy aprendiendo en 3 semanas de JaP</p>
-<img src="https://gifdb.com/images/high/cool-snoopy-dance-moves-kb19tfikzpjxrljy.gif" alt="snoopy">
+    <!-- Enlaces a redes sociales -->
+    <nav>
+    <a href="https://LinkedIn.com/rodrituca"> <img src="imgs/linkedin.png" alt="LinkedIn" class="icon"/> </a>
+    <a href="https://Github.com/rodrituca"> <img src="imgs/github.png" alt="Github" class="icon"/> </a>
+    <a href="https://Instagram.com/rodrituca"> <img src="imgs/instagram.png" alt="instagram" class="icon"/> </a>
+    </nav>
+  
+  </header>
 
-<!-- Información de contacto -->
-<div>
-<p class="contacto">Contacto</p>
-<a href="https://LinkedIn.com">LinkedIn</a>
-<a href="https://Github.com/rodrituca">GitHub</a>
-<a href="https://Instagram.com/rodrituca">Instagram</a>
-</div>
+  <body>
+    <!-- "Sobre mí" -->
+    <section id="aboutMe">
+      <div class="descripcion">
+      <div class="imagen-perfil">
+      <img src="imgs/averagesnoopyfan.jpg" alt="pfp" />
+      </div>
+      <h1>Sobre mí</h1>
+      <p>Soy un estudiante de 22 años enfocado principalmente en el Desarrollo Web.</p>
+      <p>Me encuentro cursando Jóvenes a Programar y pienso continuar mis estudios con una Licenciatura en Tecnologías de la Información.</p>
+      </div>
+      <h3>Tecnologías con las que trabajo</h3>
+      <a> <img src="imgs/technologies.png" alt="technologies"  class="technologies"/> </a>
+    </section>
+
+    <!-- Proyectos -->
+<h2 class="titulo">Mis proyectos</h2>
+    <div>
+    <div class="cajita">
+    <a href="https://rodrituca.github.io/e-commerce/index.html"> <img src="imgs/e-commerce.png" alt="e-commerce"/> </a>
+    <h3>e-commerce | JaP</h3>
+    <p>Proyecto final de JaP donde junto a mi equipo corregimos y añadimos funcionalidades a un e-commerce. </p>
+  </div>
+  </div>
 
 
+<footer style="position: fixed; bottom:0; width:100%;">Contacto: turrionezequiel@gmail.com</footer>
 </body>
 </html>
